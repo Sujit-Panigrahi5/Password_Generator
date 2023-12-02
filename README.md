@@ -7,10 +7,10 @@ This Password Generator is a simple yet powerful tool designed to create secure 
 Features
 
 -> Random Passwords: Generate highly secure and unpredictable passwords using a combination of letters, numbers, and special characters.
--> Customization: Tailor the password length and composition based on your specific requirements.
--> Easy to Use: A user-friendly interface makes it simple for anyone to create strong passwords, even without technical expertise.
--> Copy to Clipboard: Quickly copy generated passwords to the clipboard for seamless integration into various applications and websites.
--> Open Source: This project is open source, allowing for transparency and collaboration in further development and improvement.
+Customization: Tailor the password length and composition based on your specific requirements.
+Easy to Use: A user-friendly interface makes it simple for anyone to create strong passwords, even without technical expertise.
+Copy to Clipboard: Quickly copy generated passwords to the clipboard for seamless integration into various applications and websites.
+Open Source: This project is open source, allowing for transparency and collaboration in further development and improvement.
 
 
 

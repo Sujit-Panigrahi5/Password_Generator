@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+    <style>
+        .bgimg{
+            background-image: url(./assets/pexels-alleksana-4284288.jpg) ;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+         
+            
+        }
+    </style>
+</head>
+<body class="bgimg overflow-hidden w-full h-[100vh] flex flex-row justify-center items-center ">
+    
+        <div class="felx flex-col  justify-center gap-7 items-center    bg-slate-600 w-96 bg-opacity-50 rounded-lg text-white  h-[20rem]">
+            <h1 class="text-center text-2xl underline text-black">Password Generator</h1>
+
+            <!-- <div class="flex w-full flex flex-row justify-center items-center text-2xl  " id="showpassowrd">Click on Generator button </div> -->
+            <input type="text" name="" placeholder="Click on Generator button"   id="showpassowrd" class=" text-lg mt-3 text-center  bg-transparent w-full  placeholder:text-center  placeholder:text-cyan-100 text-slate-900">
+
+            <div class="flex flex-row justify-center items-center gap-10 my-2">
+                <button class="  px-5 py-2 rounded-lg bg-[#392121] " id="generator" onclick="generatepassword()">Generate</button>
+                <button class="  px-5 py-2 rounded-lg bg-[#392121] "  id="clipboardtext"  onclick="copytoclickboard()" >Copy to clipboard</button>
+            </div>
+
+            <div class=" flex flex-row justify-start ml-9 items-center gap-32   ">
+                <label for="length">Password length</label>
+                <input type="number" name="" id="length" class="text-black w-10" >
+            </div>
+
+
+            <div class=" flex flex-row justify-start  items-center ml-9 gap-16 my-2 ">
+                <label for="uppercase">Including Uppercase Letters</label>
+                <input type="checkbox" name="" id="uppercase">
+            </div>
+
+            <div class=" flex flex-row justify-start  items-center ml-9 gap-16  ">
+                <label for="lowercase">Including Lowercase Letters</label>
+                <input type="checkbox" name="" id="lowercase">
+            </div>
+
+            <div class=" flex flex-row justify-start  items-center ml-9 gap-[7.7rem] my-2 ">
+                <label for="numbers">Including Numbers</label>
+                <input type="checkbox" name="" id="numbers">
+            </div>
+
+            <div class=" flex flex-row justify-start  items-center ml-9 gap-[8.1rem] ">
+                <label for="Symbols">Including Symbols</label>
+                <input type="checkbox" name="" id="Symbols">
+            </div>
+
+        </div>
+    
+</body>
+<script src="script.js"></script>
+</html>
